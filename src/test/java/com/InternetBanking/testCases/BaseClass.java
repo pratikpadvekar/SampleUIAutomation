@@ -7,24 +7,31 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
+import com.InternetBanking.utilities.ReadConfig;
+
 public class BaseClass {
 	
+	ReadConfig readconfig = new ReadConfig();
 	
-	public String baseURL = "https://circle.testautomationacademy.in/wp-login.php";
-	public String username = "PPadvekar";
-	public String password = "pratik123";
+	
+	public String baseURL = readconfig.getApplicationURL();
+	public String username = readconfig.getUserName();
+	public String password = readconfig.getPassword();
 	public static WebDriver driver;
 	public static Logger logger;
 
+	
 	@BeforeClass
 	public void setup()
-	{
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"//driver//chromedriver");
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
+	{		
 		// For Logs 
 		logger = logger.getLogger("TestAutomation");
 		PropertyConfigurator.configure("Log4j.properties");
+		
+
+		System.setProperty("webdriver.chrome.driver", readconfig.getChromePath());
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
 	}
 	
 	@AfterClass
