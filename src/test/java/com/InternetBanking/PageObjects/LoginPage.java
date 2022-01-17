@@ -14,30 +14,38 @@ public class LoginPage {
 		 ldriver=rdriver;
 		 PageFactory.initElements(rdriver,this);
 	}
-
-	@FindBy(name="log")
+	
+	@FindBy(xpath = "//input[@placeholder=\"Username\"]")
 	WebElement txtUserName;
 	
-	@FindBy(name="pwd")
+	@FindBy(xpath = "//input[@placeholder=\"Password\"]")
 	WebElement txtPassword;
+
+	@FindBy(xpath = "//button[@type=\"submit\"]")
+	WebElement ClickOnSignIn;
 	
-	@FindBy(name="wp-submit")
-	WebElement btnLogin;
-
-
-	public void setUserName(String uname)
+	@FindBy(xpath = "//div[@class=\"sidebar-icon sidebar-logout\"]")
+	WebElement ClickOnLogOut;
+	
+	public void SetUserName(String uname)
 	{
 		txtUserName.sendKeys(uname);
-	} 
+	}
 	
-	public void SetPassWord(String pwd)
+	public void SetPassword(String pwd)
 	{
 		txtPassword.sendKeys(pwd);
 	}
 	
-	public void ClickSubmit()
+	public void clickOnsignIn()
 	{
-		btnLogin.click();
+		ClickOnSignIn.click();
+	}
+	
+	
+	public void ClickOnLogout()
+	{
+		ClickOnLogOut.click();
 	}
 
 }

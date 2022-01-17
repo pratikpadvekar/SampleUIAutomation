@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Selenum4Project]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Banking Application Test(failed)">
+    <classes>
+      <class name="com.InternetBanking.testCases.TC_LoginTest_001">
+        <methods>
+          <include name="LoginTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.InternetBanking.testCases.TC_LoginTest_001 -->
+    </classes>
+  </test> <!-- Banking Application Test(failed) -->
+</suite> <!-- Failed suite [Selenum4Project] -->

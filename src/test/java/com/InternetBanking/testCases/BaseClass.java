@@ -1,5 +1,7 @@
 package com.InternetBanking.testCases;
 
+import java.util.concurrent.TimeUnit;
+
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
@@ -32,6 +34,7 @@ public class BaseClass {
 		System.setProperty("webdriver.chrome.driver", readconfig.getChromePath());
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 	}
 	
 	@AfterClass
