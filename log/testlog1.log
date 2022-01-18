@@ -108,3 +108,25 @@
 2022-01-17 20:26:49,740 [main] INFO TestAutomation - Enter Password
 2022-01-17 20:26:50,472 [main] INFO TestAutomation - Click on SingIn button
 2022-01-17 20:26:54,720 [main] INFO TestAutomation - Click on Logout button
+2022-01-18 18:13:17,502 [main] INFO TestAutomation - The URL is Opened
+2022-01-18 18:13:17,866 [main] INFO TestAutomation - user name provided
+2022-01-18 18:13:17,983 [main] INFO TestAutomation - password provided
+2022-01-18 18:13:21,589 [main] INFO TestAutomation - Login passed
+2022-01-18 18:14:02,056 [main] INFO TestAutomation - The URL is Opened
+2022-01-18 18:14:02,555 [main] INFO TestAutomation - user name provided
+2022-01-18 18:14:02,713 [main] INFO TestAutomation - password provided
+2022-01-18 18:14:06,435 [main] INFO TestAutomation - Login passed
+2022-01-18 18:14:13,333 [main] INFO TestAutomation - The URL is Opened
+2022-01-18 18:14:13,730 [main] INFO TestAutomation - Enter UserName
+2022-01-18 18:14:13,852 [main] INFO TestAutomation - Enter Password
+2022-01-18 18:14:14,532 [main] INFO TestAutomation - Click on SingIn button
+2022-01-18 18:14:18,316 [main] INFO TestAutomation - Click on Logout button
+2022-01-19 01:57:30,037 [main] INFO TestAutomation - The URL is Opened
+2022-01-19 01:57:30,715 [main] INFO TestAutomation - user name provided
+2022-01-19 01:57:30,917 [main] INFO TestAutomation - password provided
+2022-01-19 01:57:34,831 [main] INFO TestAutomation - Login passed
+2022-01-19 01:57:43,834 [main] INFO TestAutomation - The URL is Opened
+2022-01-19 01:57:44,451 [main] INFO TestAutomation - Enter UserName
+2022-01-19 01:57:44,621 [main] INFO TestAutomation - Enter Password
+2022-01-19 01:57:45,288 [main] INFO TestAutomation - Click on SingIn button
+2022-01-19 01:57:48,690 [main] INFO TestAutomation - Click on Logout button

@@ -3,13 +3,15 @@
 <suite name="Selenum4Project">
   
 
-  
+  	<listeners>
+   		<listener class-name="com.InternetBanking.utilities.Reporting"></listener>
+   	</listeners>
   
   <test name= "Banking Application Test">
    	
   	<classes>
   	<class name ="com.InternetBanking.testCases.TC_LoginDDT_002"></class>
-  		<class name="com.InternetBanking.testCases.TC_LoginTest_001"></class>
+  	<class name="com.InternetBanking.testCases.TC_LoginTest_001"></class>
   		
   	</classes>
   </test> <!-- Test -->

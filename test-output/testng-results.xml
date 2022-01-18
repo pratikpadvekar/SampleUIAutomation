@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-17T14:56:27Z" name="Selenum4Project" finished-at="2022-01-17T14:56:54Z" duration-ms="27685">
+  <suite started-at="2022-01-18T20:27:18Z" name="Selenum4Project" finished-at="2022-01-18T20:27:48Z" duration-ms="30197">
     <groups>
     </groups>
-    <test started-at="2022-01-17T14:56:27Z" name="Banking Application Test" finished-at="2022-01-17T14:56:54Z" duration-ms="27685">
+    <test started-at="2022-01-18T20:27:18Z" name="Banking Application Test" finished-at="2022-01-18T20:27:48Z" duration-ms="30197">
       <class name="com.InternetBanking.testCases.TC_LoginTest_001">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.InternetBanking.testCases.TC_LoginTest_001@74751b3]" started-at="2022-01-17T14:56:45Z" name="setup" finished-at="2022-01-17T14:56:47Z" duration-ms="1961" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.InternetBanking.testCases.TC_LoginTest_001@306e95ec]" started-at="2022-01-18T20:27:38Z" name="setup" finished-at="2022-01-18T20:27:41Z" duration-ms="3511" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginTest()[pri:0, instance:com.InternetBanking.testCases.TC_LoginTest_001@74751b3]" started-at="2022-01-17T14:56:47Z" name="LoginTest" finished-at="2022-01-17T14:56:54Z" duration-ms="7462" status="PASS">
+        <test-method signature="LoginTest()[pri:0, instance:com.InternetBanking.testCases.TC_LoginTest_001@306e95ec]" started-at="2022-01-18T20:27:41Z" name="LoginTest" finished-at="2022-01-18T20:27:48Z" duration-ms="6696" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.InternetBanking.testCases.TC_LoginTest_001@74751b3]" started-at="2022-01-17T14:56:54Z" name="tearDown" finished-at="2022-01-17T14:56:54Z" duration-ms="164" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.InternetBanking.testCases.TC_LoginTest_001@306e95ec]" started-at="2022-01-18T20:27:48Z" name="tearDown" finished-at="2022-01-18T20:27:48Z" duration-ms="279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.InternetBanking.testCases.TC_LoginTest_001 -->
       <class name="com.InternetBanking.testCases.TC_LoginDDT_002">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.InternetBanking.testCases.TC_LoginDDT_002@58d75e99]" started-at="2022-01-17T14:56:27Z" name="setup" finished-at="2022-01-17T14:56:33Z" duration-ms="6424" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.InternetBanking.testCases.TC_LoginDDT_002@741a8937]" started-at="2022-01-18T20:27:19Z" name="setup" finished-at="2022-01-18T20:27:27Z" duration-ms="7944" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.InternetBanking.testCases.TC_LoginDDT_002@58d75e99]" started-at="2022-01-17T14:56:34Z" name="loginDDT" data-provider="LoginData" finished-at="2022-01-17T14:56:45Z" duration-ms="10410" status="PASS">
+        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.InternetBanking.testCases.TC_LoginDDT_002@741a8937]" started-at="2022-01-18T20:27:28Z" name="loginDDT" data-provider="LoginData" finished-at="2022-01-18T20:27:38Z" duration-ms="10195" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.InternetBanking.testCases.TC_LoginDDT_002@58d75e99]" started-at="2022-01-17T14:56:45Z" name="tearDown" finished-at="2022-01-17T14:56:45Z" duration-ms="181" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.InternetBanking.testCases.TC_LoginDDT_002@741a8937]" started-at="2022-01-18T20:27:38Z" name="tearDown" finished-at="2022-01-18T20:27:38Z" duration-ms="161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
