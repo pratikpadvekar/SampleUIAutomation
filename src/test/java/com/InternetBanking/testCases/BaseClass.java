@@ -37,9 +37,9 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 	}
 	
-	@AfterClass
-	public void tearDown()
-	{
-		driver.quit();
-	}
+//	@AfterClass
+//	public void tearDown()
+//	{
+//		driver.quit();
+//	}
 }
