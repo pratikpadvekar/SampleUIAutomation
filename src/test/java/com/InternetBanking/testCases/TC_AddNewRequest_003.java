@@ -38,15 +38,6 @@ public class TC_AddNewRequest_003 extends BaseClass{
 		
 	}
 	
-	public String randomString() {
-		
-		String generateString = RandomStringUtils.randomAlphabetic(8);
-		return (generateString);
-	}
-	
-	public static String randomNum() {
-		String generateString2 = RandomStringUtils.randomNumeric(10);
-		return (generateString2);
-	}
+
 	
 }
